@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header{
+    background-color: #F8F8F8;
+}
+
+.bold_name{
+    font-weight: bolder;
+}
+
+.light_name{
+    font-weight: 100;
+}
+
+.name{
+    padding: 25px 75px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.address-items{
+    display: inline-block;
+    float: right;
+    padding: 25px 75px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777777;
+}
+
+.address-item h3 , i{
+    display: inline-block;
+}
+
+.address-item i{
+    color: #703A85;
+}
+
+.fa-bars{
+    display: inline-block;
+    background-color: #703A85;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #F8F8F8;
+}
+
+.objective_text_heading{
+    display: inline-block;
+}
+
+#objective{
+    padding: 25px 50px;
+}
+
+.objcetive_text{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.fa-graduation-cap{
+    display: inline-block;
+    background-color: #703A85;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 7px;
+}
+
+.education_text_heading{
+    display: inline-block;   
+}
+
+.education{
+    margin-top: 20px;
+}
+
+.title{
+    color: #703A85;
+    font-weight: bolder;
+}
+
+.dates_from{
+    color: #8E8E8E;
+}
+
+.education_text_paragraph{
+    color: #BBBBBB;
+}
+
+.fa-briefcase{
+    padding: 10px;
+    background-color: #754189;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.experience_text_heading{
+    display: inline-block;   
+}
+
+.experience{
+    margin-top: 20px;
+}
+
+.job_title , .degree{
+    margin: 10px 0 0 40px;
+}
+
+.objective-paragraph{
+    padding: 0 50px;
+    color: #BBBBBB;
+}
+
+.skills{
+    margin-top: 20px;
+}
+
+.fa-screwdriver-wrench{
+    display: inline-block;
+    background-color: #703A85;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.skills_heading{
+    display: inline-block;
+}
+
+.first_list{
+    display: inline-block;
+}
+
+.second_list{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+li{
+    width: 370px;
+}
+
+.skills_list{
+    margin-left: 60px;
+}
+
+ul {
+    list-style: none;
+  }
+  
+
+ul li::before {
+    content: "\2022";
+    color: #76438A;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.activities{
+    margin-top: 20px;
+}
+
+.fa-comment-dots{
+    display: inline-block;
+    background-color: #703A85;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.activities_heading{
+    display: inline-block;
+}
+
+.activities_paragraph{
+    margin-left: 40px;
+}
+
+p , li{
+    color: #BBBBBB;
+}
